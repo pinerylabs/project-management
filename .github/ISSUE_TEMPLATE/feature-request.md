@@ -1,6 +1,6 @@
 ---
 name: Feature Request
-about: Ask for something new to be added to the product
+about: Ask for something new to be added
 title: ''
 labels: Feature Request
 assignees: andrewminer
