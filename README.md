@@ -29,7 +29,9 @@ This could be a page which takes too long to load, something which takes too man
 where it's hard to make a checklist look good.  If you're not sure which category to use, go ahead
 and file a Nuisance Report.
 
-[Click Here](https://github.com/pinerylabs/project-management/issues/new/choose) to file an issue.
+To actually add an issue, click the [Issues](/issues) tab above, an then the large, green "New Issue"
+button on the right.  This will prompt you to choose your issue type by selecting one of the big,
+green "Get Started" buttons.
 
 
 
