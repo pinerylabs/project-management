@@ -4,11 +4,9 @@ This repository contains all the project management tools for Pinery Labs.  In p
     the project (whether feature requests, bug reports or anything else).
 * [Product Backlog](https://github.com/pinerylabs/project-management/projects/1)—a set of ordered
     lists of issues arranged in columns according to how soon they are scheduled to be added to the
-    product
-* [Sprint Backlog](https://github.com/pinerylabs/project-management/projects/2)—a visual display of
-    all the work currently in progress, showing what is availble for users, what is available for
-    testing, and what is still in progress.
-
+    product, or what release they were part of.  The "Current Release" column shows things which
+    are planned for the next release, and "Triage" contains items which have not yet been duely
+    categorized and prioritized.
 
 
 ### ADDING ISSUES
@@ -53,27 +51,14 @@ selected issues are then moved to the Sprint Backlog.
 
 ### UNDERSTANDING THE PROJECT BACKLOG
 
-The Project Backlog contains all the issues *which are not* being worked on right now.  It's organized
-into three columns: Triage, Next Sprint, and Future Sprints. By default, all newly created issues
-are added to the Triage column. Each time we plan a new sprint, these will be moved into the other
-columns. The Next Sprint column is used to capture all the work which is planned to go into the new
-sprint being planned. Issues to be handled sometime after the next sprint are moved to the Future
-Sprints column. Within each column, those issues deemed more urgent are sorted to the top, while those
-considered less urgent are sorted to the bottom.
+The Project Backlog contains all issues—past, present, and future—organized into columns.  There are
+four categories of columns:
 
-
-
-### UNDERSTANDING THE SPRINT BACKLOG
-
-The Sprint Backlog contains all the issues being worked on *in the current sprint*.  It has four
-columns: Planned, In Progress, Staging, and Production.  Issues in the Planning column have been selected
-for the current sprint, but no one is actually working on them yet.  Issues in the In Progress column
-are actively been developed.  Issues in Staging are available on the test version of the website, but
-haven't yet been delivered to the real website.  Finally, issues in the Production column are live on
-the official website.
-
-Items in the Planned column are shown in order of importance: the top-most things are those which were
-deemed most important to deliver during sprint planning.  This doesn't necessarily mean that they will
-get worked on exactly in this order, however.  Sometimes, it makes more sense to implement two issues
-together (or one before another) in a way which changes the actual order of implementation.  All the
-rest of the columns show items in order of when they were moved to that column.
+1. Triage—this column contains issues which have not be categorized and prioritized. This is used to
+accumulate issues between official sprint planning activities.
+2. Releases—typically named something like "v1.2.3—Main Focus Area", these columns contain the actual
+issues completed for each release of Runbooks.  The "vX.Y.Z—Current Release" column contains the issues
+which are due to be completed in the next release.
+3. Theme—columns starting with "Theme" collect specific items which all pertain to some one part of the
+system (e.g., "Theme—Runbook Editing").  These are kept roughly in priority order of how important each
+issue seems to be to end users.
