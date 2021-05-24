@@ -2,8 +2,8 @@
 name: Feature Request
 about: Ask for something new to be added
 title: ''
-labels: Feature Request
-assignees: andrewminer
+labels: Customer, Feature
+assignees: ''
 
 ---
 

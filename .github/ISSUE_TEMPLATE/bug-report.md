@@ -2,8 +2,8 @@
 name: Bug Report
 about: Ask for something broken to be fixed
 title: ''
-labels: Bug Report
-assignees: andrewminer
+labels: Bug, Customer
+assignees: ''
 
 ---
 
@@ -33,5 +33,3 @@ assignees: andrewminer
 ### ACTUAL RESULTS
 
 > *Delete this paragraph, and describe what **really did** happen.  If several unexpected things happened on multiple steps, then call out what happened on each step.*
-
-

@@ -2,8 +2,8 @@
 name: Nuisance Report
 about: Ask for annoying things to be improved
 title: ''
-labels: ''
-assignees: andrewminer
+labels: Nuisance, Customer
+assignees: ''
 
 ---
 
