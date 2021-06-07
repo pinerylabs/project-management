@@ -2,11 +2,11 @@ This repository contains all the project management tools for Pinery Labs.  In p
 
 * [Issues](https://github.com/pinerylabs/project-management/issues)—requests for improvements to
     the project (whether feature requests, bug reports or anything else).
-* [Product Backlog](https://github.com/pinerylabs/project-management/projects/1)—a set of ordered
-    lists of issues arranged in columns according to how soon they are scheduled to be added to the
-    product, or what release they were part of.  The "Current Release" column shows things which
-    are planned for the next release, and "Triage" contains items which have not yet been duely
-    categorized and prioritized.
+* [Milestones](https://github.com/pinerylabs/project-management/milestones)—a set of ordered
+    lists of issues arranged according to how soon they are scheduled to be added to the
+    product.  The lowest numbered release is the one which will come out next.  "Triage" contains
+    new items which have not yet been duely categorized and prioritized.  "Unspecified Release"
+    contains items which are understood, but not planned for a particular release.  
 
 
 ### ADDING ISSUES
@@ -36,29 +36,11 @@ green "Get Started" buttons.
 ### ABOUT SPRINTS
 
 We plan work in two-week increments, called sprints.  In each sprint, the goal is to deliver complete
-new features / bug fixes / etc. in a logical group which has a clear theme.  This might be adding a
-new cluster of features all to do with the same general part of the application, a pass at making
-everything faster, or an effort to stamp out bugs in a certain feature.
+new features / bug fixes / etc. in a logical group which has a clear theme.  These are called Milestones.
+This might be adding a new cluster of features all to do with the same general part of the application,
+a pass at making everything faster, or an effort to stamp out bugs in a certain feature.
 
-At the beginning of each sprint, Andrew will get together with the project leader(s) for each customer
-and plan out what is going to go into the upcoming sprint.  To a large degree, this will be based upon
-*your* feedback!  Whether it's through filing issues here, talking with me directly, or letting your
-project leader know what you'd like to see next.  All this feedback is captured in the Project Backlog,
-and it is sifted and sorted to product the list of issues to be addressed in the new sprint. The
-selected issues are then moved to the Sprint Backlog.
-
-
-
-### UNDERSTANDING THE PROJECT BACKLOG
-
-The Project Backlog contains all issues—past, present, and future—organized into columns.  There are
-four categories of columns:
-
-1. Triage—this column contains issues which have not be categorized and prioritized. This is used to
-accumulate issues between official sprint planning activities.
-2. Releases—typically named something like "v1.2.3—Main Focus Area", these columns contain the actual
-issues completed for each release of Runbooks.  The "vX.Y.Z—Current Release" column contains the issues
-which are due to be completed in the next release.
-3. Theme—columns starting with "Theme" collect specific items which all pertain to some one part of the
-system (e.g., "Theme—Runbook Editing").  These are kept roughly in priority order of how important each
-issue seems to be to end users.
+At the beginning of each sprint, we will plan out what is going to go into the upcoming sprint.  To a
+large degree, this will be based upon *your* feedback!  Whether it's through filing issues here, talking
+with us directly, or letting your project leader know what you'd like to see next.  All this feedback is
+captured and added to a Milestone.
