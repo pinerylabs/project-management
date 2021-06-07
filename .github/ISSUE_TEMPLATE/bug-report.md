@@ -2,7 +2,7 @@
 name: Bug Report
 about: Ask for something broken to be fixed
 title: ''
-labels: Bug, Customer
+labels: Bug
 assignees: ''
 
 ---

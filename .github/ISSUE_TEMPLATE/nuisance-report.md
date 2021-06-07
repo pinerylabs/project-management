@@ -2,7 +2,7 @@
 name: Nuisance Report
 about: Ask for annoying things to be improved
 title: ''
-labels: Nuisance, Customer
+labels: Nuisance
 assignees: ''
 
 ---

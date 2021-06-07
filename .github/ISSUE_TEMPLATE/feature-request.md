@@ -2,7 +2,7 @@
 name: Feature Request
 about: Ask for something new to be added
 title: ''
-labels: Customer, Feature
+labels: Feature
 assignees: ''
 
 ---
@@ -21,9 +21,9 @@ assignees: ''
 
 ### URGENCY
 
-> *Please place an "x" in the box which best describes how soon you'd like to see your new feature, or add in your own description.*
+> *Please leave the option which best describes how soon you'd like to see your new feature (deleting the others), or add in your own description.*
 
-* [ ] right away!
-* [ ] sometime soon.
-* [ ] eventually.
-* [ ] someday.
+* right away
+* sometime soon
+* eventually
+* someday
